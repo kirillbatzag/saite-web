@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.quest{
+    margin-top: 40px;
+}
+
+.quest h1{
+    color: #C70000;
+    font-size: 24px;
+}
+
+.quest p{
+    font-size: 16px;
+}
