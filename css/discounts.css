@@ -1,17 +1,18 @@
 article{
-    width: 45%;
+    width: 50%;
     min-width: 550px;
-    height: 310px;
+    height: 280px;
     border: 1px solid black;
+    border-radius: 12px;
 }
 
 article h1{
     font-size: 28px;
-    margin-bottom: 32px;
+    margin-bottom: 18px;
 }
 article p{
     font-size: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
 }
 
 article a{
@@ -26,4 +27,30 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.discounts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+}
+
+.price{
+    font-size: 48px;
+    color: #C70000;
+}
+
+.banner{
+    margin: 0px;
+    position: absolute;
+    right: -35px;
+    top: 15px;
+    font-size: 18px;
+    transform: rotate(45deg);
+    background-color: #C70000;
+    color: white;
+    padding: 6px 40px;
+    font-weight: 300
 }
