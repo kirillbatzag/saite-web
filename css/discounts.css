@@ -54,3 +54,9 @@ section{
     padding: 6px 40px;
     font-weight: 300
 }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
