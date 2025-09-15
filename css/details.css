@@ -1,5 +1,47 @@
 .wrapper{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+article{
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
+
+.photo_yslygi{
+    min-width: 500px;
+    max-width: 560px;
+    width: 80%;
+}
+
+.razdel{
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.yslyga{
+    font-size: 22px;
+}
+
+.text-yslygi{
+    font-size: 18px;
+}
+
+article a{
+    padding: 10px 10px;
+    background-color: #C70000;
+    border-radius: 8px;
+    color: white;
+    font-weight: 550;
+    width: fit-content;
+    text-decoration: none;
 }
