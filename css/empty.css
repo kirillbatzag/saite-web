@@ -1,0 +1,20 @@
+content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:50vh;
+    gap: 40px;
+}
+
+content span{
+    font-size: 20vw !important;
+    font-weight:100;
+    color: gray ;
+}
+
+content h1{
+    font-size: 32px;
+    color: gray;
+    margin-bottom: 40px;
+}
