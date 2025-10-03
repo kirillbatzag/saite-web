@@ -6,3 +6,45 @@
 content{
     width: 80%;
 }
+
+.naming{
+    display: flex;
+    justify-content: space-between;
+}
+
+.naming .switch span{
+    font-size: 32px;
+}
+.naming .enable-switch{
+    color: black;
+}
+.naming .disable-switch{
+    color: grey;
+}
+
+.chapter article{
+    display: flex;
+}
+
+.rv-service{
+    display: flex;
+    gap: 20px;
+}
+
+.service{
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+article{
+    align-items: center;
+}
+
+.s-1{
+    background-image: url("../img/ser-1.webp");
+    background-size: cover; /* растянуть */
+    background-position: center; /* по центру */
+    background-blend-mode: lighten;
+    background-color: rgba(255,255,255,0.6);
+}

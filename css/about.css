@@ -15,9 +15,32 @@ section{
 
 .quest h1{
     color: #C70000;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .quest p{
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.quest ul {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 28px;
+}
+
+.quest ul li{
+    color: #C70000;
+    font-size: 28px;
+}
+
+.quest ul p{
+
+}
+
+.quest article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
